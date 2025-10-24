@@ -1,0 +1,3 @@
+/home/jessko/laba1_TiMP/prog1/main.cpp
+/home/jessko/laba1_TiMP/prog1/modAlphaCipher.cpp
+/home/jessko/laba1_TiMP/prog1/modAlphaCipher.h

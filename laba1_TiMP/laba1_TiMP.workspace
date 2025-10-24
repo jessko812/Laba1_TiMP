@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="laba1_TiMP" Database="" Version="10000">
+  <Project Name="prog1" Path="prog1/prog1.project" Active="No"/>
+  <Project Name="prog2" Path="prog2/prog2.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="prog1" ConfigName="Debug"/>
+      <Project Name="prog2" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="prog1" ConfigName="Release"/>
+      <Project Name="prog2" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
