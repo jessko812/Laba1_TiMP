@@ -25,7 +25,7 @@ int main()
     do {
         cout << "\nChoose operation (0-exit, 1-encrypt, 2-decrypt): ";
         cin >> op;
-        cin.ignore(); // очищаем буфер ввода
+        cin.ignore();
 
         if(op > 2) {
             cout << "Invalid operation!" << endl;

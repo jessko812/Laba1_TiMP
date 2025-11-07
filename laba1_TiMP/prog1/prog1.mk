@@ -6,15 +6,15 @@
 ProjectName            :=prog1
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
-WorkspacePath          :=/home/jessko/laba1_TiMP
-ProjectPath            :=/home/jessko/laba1_TiMP/prog1
+WorkspacePath          :=/home/jessko/Laba1_TiMP/laba1_TiMP
+ProjectPath            :=/home/jessko/Laba1_TiMP/laba1_TiMP/prog1
 IntermediateDirectory  :=$(ConfigurationName)
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=jessko
-Date                   :=10/24/25
+Date                   :=11/07/25
 CodeLitePath           :=/home/jessko/.codelite
 LinkerName             :=g++
 SharedObjectLinkerName :=g++ -shared -fPIC
@@ -94,12 +94,12 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/jessko/laba1_TiMP/prog1/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/jessko/Laba1_TiMP/laba1_TiMP/prog1/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
 $(IntermediateDirectory)/modAlphaCipher.cpp$(ObjectSuffix): modAlphaCipher.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/jessko/laba1_TiMP/prog1/modAlphaCipher.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/modAlphaCipher.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/jessko/Laba1_TiMP/laba1_TiMP/prog1/modAlphaCipher.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/modAlphaCipher.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/modAlphaCipher.cpp$(PreprocessSuffix): modAlphaCipher.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/modAlphaCipher.cpp$(PreprocessSuffix) modAlphaCipher.cpp
 

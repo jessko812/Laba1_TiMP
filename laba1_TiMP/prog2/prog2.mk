@@ -6,15 +6,15 @@
 ProjectName            :=prog2
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
-WorkspacePath          :=/home/jessko/laba1_TiMP
-ProjectPath            :=/home/jessko/laba1_TiMP/prog2
+WorkspacePath          :=/home/jessko/Laba1_TiMP/laba1_TiMP
+ProjectPath            :=/home/jessko/Laba1_TiMP/laba1_TiMP/prog2
 IntermediateDirectory  :=$(ConfigurationName)
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=jessko
-Date                   :=10/24/25
+Date                   :=11/07/25
 CodeLitePath           :=/home/jessko/.codelite
 LinkerName             :=g++
 SharedObjectLinkerName :=g++ -shared -fPIC
@@ -62,7 +62,7 @@ AS       := as
 ## User defined environment variables
 ##
 CodeLiteDir:=/usr/share/codelite
-Objects0=$(IntermediateDirectory)/routeCipher.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/routeCipher.cpp$(ObjectSuffix) 
 
 
 
@@ -93,15 +93,15 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/routeCipher.cpp$(ObjectSuffix): routeCipher.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/jessko/laba1_TiMP/prog2/routeCipher.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/routeCipher.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/routeCipher.cpp$(PreprocessSuffix): routeCipher.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/routeCipher.cpp$(PreprocessSuffix) routeCipher.cpp
-
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/jessko/laba1_TiMP/prog2/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/jessko/Laba1_TiMP/laba1_TiMP/prog2/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
+
+$(IntermediateDirectory)/routeCipher.cpp$(ObjectSuffix): routeCipher.cpp
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/jessko/Laba1_TiMP/laba1_TiMP/prog2/routeCipher.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/routeCipher.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/routeCipher.cpp$(PreprocessSuffix): routeCipher.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/routeCipher.cpp$(PreprocessSuffix) routeCipher.cpp
 
 ##
 ## Clean

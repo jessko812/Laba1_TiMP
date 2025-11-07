@@ -6,14 +6,12 @@
 class routeCipher
 {
 private:
-    int key; // количество столбцов таблицы
+    int key;
 
 public:
-    routeCipher() = delete; // запретим конструктор без параметров
-    routeCipher(int k);     // конструктор для инициализации ключом
+    routeCipher() = delete;
+    routeCipher(int k);
 
-    // зашифрование
     std::string encrypt(const std::string& open_text);
-    // расшифрование
     std::string decrypt(const std::string& cipher_text);
 };

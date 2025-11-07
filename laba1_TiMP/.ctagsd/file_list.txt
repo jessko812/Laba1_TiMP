@@ -1,3 +1,6 @@
-/home/jessko/laba1_TiMP/prog1/main.cpp
-/home/jessko/laba1_TiMP/prog1/modAlphaCipher.cpp
-/home/jessko/laba1_TiMP/prog1/modAlphaCipher.h
+/home/jessko/Laba1_TiMP/laba1_TiMP/prog2/main.cpp
+/home/jessko/Laba1_TiMP/laba1_TiMP/prog2/routeCipher.h
+/home/jessko/Laba1_TiMP/laba1_TiMP/prog2/routeCipher.cpp
+/home/jessko/Laba1_TiMP/laba1_TiMP/prog1/main.cpp
+/home/jessko/Laba1_TiMP/laba1_TiMP/prog1/modAlphaCipher.cpp
+/home/jessko/Laba1_TiMP/laba1_TiMP/prog1/modAlphaCipher.h
